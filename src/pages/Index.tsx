@@ -71,7 +71,7 @@ const Index = () => {
           </div>
           <div className="relative animate-fade-in">
             <img 
-              src="https://cdn.poehali.dev/projects/97c6b397-3389-416b-99c4-d68d6700e731/files/0c57a453-06c3-41cd-89b9-85c73be85d2e.jpg"
+              src="https://cdn.poehali.dev/projects/97c6b397-3389-416b-99c4-d68d6700e731/files/85c84542-d015-4245-babe-754fee5d5970.jpg"
               alt="Сотрудник Clean House выносит мусор"
               className="rounded-2xl shadow-2xl"
             />
