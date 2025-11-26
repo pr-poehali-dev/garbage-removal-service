@@ -13,7 +13,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Recycle" className="text-primary" size={32} />
-            <span className="text-2xl font-bold text-primary">ЭкоВынос</span>
+            <span className="text-2xl font-bold text-primary">Clean House</span>
           </div>
           <div className="hidden md:flex gap-6">
             <a href="#hero" className="text-foreground/80 hover:text-primary transition-colors">Главная</a>
@@ -210,7 +210,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-primary/10 text-primary">О нас</Badge>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Миссия ЭкоВыноса</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Миссия Clean House</h2>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -251,7 +251,7 @@ const Index = () => {
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-bold mb-4">Присоединяйтесь к эко-движению!</h3>
               <p className="mb-6 opacity-90">
-                Более 500 семей уже выбрали нас. Начните заботиться о природе вместе с ЭкоВыносом
+                Более 500 семей уже выбрали нас. Начните заботиться о природе вместе с Clean House
               </p>
               <Button 
                 size="lg" 
@@ -355,7 +355,7 @@ const Index = () => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Recycle" className="text-primary" size={28} />
-                <span className="text-xl font-bold">ЭкоВынос</span>
+                <span className="text-xl font-bold">Clean House</span>
               </div>
               <p className="text-sm opacity-80">
                 Забота о природе начинается с малого
@@ -381,7 +381,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Icon name="Mail" size={16} />
-                  <span>info@ekovynos.ru</span>
+                  <span>info@cleanhouse.ru</span>
                 </div>
               </div>
             </div>
@@ -403,7 +403,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-secondary-foreground/20 pt-6 text-center text-sm opacity-80">
-            <p>© 2024 ЭкоВынос. Все права защищены.</p>
+            <p>© 2024 Clean House. Все права защищены.</p>
           </div>
         </div>
       </footer>
