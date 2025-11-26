@@ -19,6 +19,7 @@ const Index = () => {
             <a href="#hero" className="text-foreground/80 hover:text-primary transition-colors">Главная</a>
             <a href="#pricing" className="text-foreground/80 hover:text-primary transition-colors">Тарифы</a>
             <a href="#ecology" className="text-foreground/80 hover:text-primary transition-colors">Экология</a>
+            <a href="#faq" className="text-foreground/80 hover:text-primary transition-colors">Вопросы</a>
             <a href="#about" className="text-foreground/80 hover:text-primary transition-colors">О нас</a>
           </div>
           <Button className="bg-primary hover:bg-primary/90">
@@ -206,6 +207,104 @@ const Index = () => {
         </div>
       </section>
 
+      <section id="faq" className="container mx-auto px-4 py-20">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <Badge className="mb-4 bg-primary/10 text-primary">FAQ</Badge>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Частые вопросы</h2>
+            <p className="text-muted-foreground text-lg">
+              Ответы на популярные вопросы о нашем сервисе
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg flex items-start gap-3">
+                  <Icon name="HelpCircle" className="text-primary mt-1" size={20} />
+                  Как часто вы выносите мусор?
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Мы выносим мусор ежедневно в удобное для вас время. Вы можете выбрать утреннее или вечернее время при оформлении подписки.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg flex items-start gap-3">
+                  <Icon name="HelpCircle" className="text-primary mt-1" size={20} />
+                  Что входит в стоимость подписки?
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  В стоимость 499₽/месяц входит ежедневный вынос мусора, сортировка отходов для переработки, предоставление эко-пакетов и консультация по раздельному сбору.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg flex items-start gap-3">
+                  <Icon name="HelpCircle" className="text-primary mt-1" size={20} />
+                  Нужно ли мне быть дома во время выноса?
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Нет, не обязательно. Вы просто оставляете мусор в указанном месте, а наш сотрудник забирает его в согласованное время.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg flex items-start gap-3">
+                  <Icon name="HelpCircle" className="text-primary mt-1" size={20} />
+                  Можно ли отменить подписку?
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Да, вы можете отменить подписку в любой момент без штрафов. Просто сообщите нам за 3 дня до окончания текущего оплаченного периода.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg flex items-start gap-3">
+                  <Icon name="HelpCircle" className="text-primary mt-1" size={20} />
+                  Вы работаете в выходные?
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Да, мы работаем 7 дней в неделю, включая выходные и праздники. Мусор не копится, даже когда вы отдыхаете.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-lg flex items-start gap-3">
+                  <Icon name="HelpCircle" className="text-primary mt-1" size={20} />
+                  Как вы заботитесь об экологии?
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Мы сортируем отходы и отправляем 95% на переработку. Органические отходы идут на компостирование, пластик и бумага — на вторичную переработку.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section id="about" className="container mx-auto px-4 py-20 bg-muted/30 -mx-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -368,6 +467,7 @@ const Index = () => {
                 <div><a href="#hero" className="hover:text-primary transition-colors">Главная</a></div>
                 <div><a href="#pricing" className="hover:text-primary transition-colors">Тарифы</a></div>
                 <div><a href="#ecology" className="hover:text-primary transition-colors">Экология</a></div>
+                <div><a href="#faq" className="hover:text-primary transition-colors">Вопросы</a></div>
                 <div><a href="#about" className="hover:text-primary transition-colors">О нас</a></div>
               </div>
             </div>
