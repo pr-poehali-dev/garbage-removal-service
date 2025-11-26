@@ -39,7 +39,7 @@ const Index = () => {
               <span className="text-primary">время</span>
             </h1>
             <p className="text-lg text-muted-foreground">
-              Подписка всего за 499₽ в месяц. Никаких забот с выносом мусора — мы делаем это за вас, заботясь об экологии
+              Подписка всего за 499₽ в месяц. Никаких забот с выносом мусора — мы делаем это за вас, заботясь о вашем времени
             </p>
             <div className="flex flex-wrap gap-4">
               <Button 
